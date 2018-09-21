@@ -1,0 +1,92 @@
+body{
+    background-image: linear-gradient(to bottom, cornflowerblue, aliceblue);
+    background-repeat: repeat;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+header{
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+.nav{
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.nav .button{
+    width: 48%;
+    margin: 2px 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.button{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: rgba(197,205, 216,.1);
+    color: black;
+    border: aliceblue;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 24px;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: rgba(197,205, 216,.3);
+    color: black;
+}
+
+/* applies to ALL widths */
+
+
+/* Larger than mobile */
+/* applies to all widths 400px and greater */
+@media (min-width: 400px) {
+
+}
+
+/* Larger than phablet */
+/* applies to all widths 550px and greater */
+@media (min-width: 550px) {
+    .header{
+        padding: 40px 0 50px 0;
+    }
+    .logo{
+        position: static;
+        background-color: transparent;
+        font-size: 2rem;
+        line-height: 1;
+    }
+    .nav .button{
+        width: auto;
+    }
+    h1{
+        font-size: 5rem;
+    }
+    h2{
+        font-size: 4.2rem;
+    }
+
+}
+
+/* Larger than tablet */
+
+/* applies to all widths 750px and greater */
+@media (min-width: 750px) {
+    .logo {
+        font-size: 3rem;
+        position: relative;
+        top: 5px;
+    }
+}
+
+/* Larger than desktop */
+/* applies to all widths 100px and greater */
+@media (min-width: 1000px) {
+
+}
+
+/* Larger than Desktop HD */
+/* applies to 1200px and greater */
+@media (min-width: 1200px) {
+
+}
